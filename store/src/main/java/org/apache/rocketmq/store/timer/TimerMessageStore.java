@@ -1783,7 +1783,7 @@ public class TimerMessageStore {
     }
 
     public float getDequeueTps() {
-        return perfCounterTicks.getCounter("dequeue_put").getLastTps();
+        return perfCounterTicks.getCounter(DEQUEUE_PUT).getLastTps();
     }
 
     public void prepareTimerCheckPoint() {
