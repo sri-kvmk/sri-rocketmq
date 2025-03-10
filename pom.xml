@@ -521,6 +521,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-rocketmq</artifactId>
+                <version>4.10.2</version>
+            </dependency>          
+            <dependency>
                 <groupId>org.apache.rocketmq</groupId>
                 <artifactId>rocketmq-acl</artifactId>
                 <version>${project.version}</version>
